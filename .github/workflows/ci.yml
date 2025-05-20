@@ -22,10 +22,7 @@ jobs:
       run: swift package resolve
 
     - name: Build project
-      run: xcodebuild -scheme infitinyCI -sdk iphonesimulator -destination 
-'platform=iOS Simulator,name=iPhone 14,OS=16.4' clean build
+      run: xcodebuild -scheme infitinyCI -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.4' clean build
 
     - name: Run tests
-      run: xcodebuild test -scheme infitinyCI -sdk iphonesimulator 
--destination 'platform=iOS Simulator,name=iPhone 14,OS=16.4'
-
+      run: xcodebuild test -scheme infitinyCI -sdk iphonesimulator -destination 'platform=iOS Simulator,name=iPhone 14,OS=16.4'
