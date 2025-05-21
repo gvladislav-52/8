@@ -22,13 +22,6 @@
 			remoteGlobalIDString = 2345B55C2DDCBCA3003E4BFC;
 			remoteInfo = infitinyCI;
 		};
-		2345B5782DDCBCA4003E4BFC /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2345B5552DDCBCA3003E4BFC /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2345B55C2DDCBCA3003E4BFC;
-			remoteInfo = infitinyCI;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +32,6 @@
 		2345B5672DDCBCA4003E4BFC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2345B56D2DDCBCA4003E4BFC /* infitinyCITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = infitinyCITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2345B5712DDCBCA4003E4BFC /* infitinyCITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = infitinyCITests.swift; sourceTree = "<group>"; };
-		2345B5772DDCBCA4003E4BFC /* infitinyCIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = infitinyCIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,13 +43,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2345B56A2DDCBCA4003E4BFC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2345B5742DDCBCA4003E4BFC /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -81,7 +66,6 @@
 			children = (
 				2345B55D2DDCBCA3003E4BFC /* infitinyCI.app */,
 				2345B56D2DDCBCA4003E4BFC /* infitinyCITests.xctest */,
-				2345B5772DDCBCA4003E4BFC /* infitinyCIUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -151,24 +135,6 @@
 			productReference = 2345B56D2DDCBCA4003E4BFC /* infitinyCITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		2345B5762DDCBCA4003E4BFC /* infitinyCIUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2345B5872DDCBCA4003E4BFC /* Build configuration list for PBXNativeTarget "infitinyCIUITests" */;
-			buildPhases = (
-				2345B5732DDCBCA4003E4BFC /* Sources */,
-				2345B5742DDCBCA4003E4BFC /* Frameworks */,
-				2345B5752DDCBCA4003E4BFC /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2345B5792DDCBCA4003E4BFC /* PBXTargetDependency */,
-			);
-			name = infitinyCIUITests;
-			productName = infitinyCIUITests;
-			productReference = 2345B5772DDCBCA4003E4BFC /* infitinyCIUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -183,10 +149,6 @@
 						CreatedOnToolsVersion = 15.2;
 					};
 					2345B56C2DDCBCA4003E4BFC = {
-						CreatedOnToolsVersion = 15.2;
-						TestTargetID = 2345B55C2DDCBCA3003E4BFC;
-					};
-					2345B5762DDCBCA4003E4BFC = {
 						CreatedOnToolsVersion = 15.2;
 						TestTargetID = 2345B55C2DDCBCA3003E4BFC;
 					};
@@ -207,7 +169,6 @@
 			targets = (
 				2345B55C2DDCBCA3003E4BFC /* infitinyCI */,
 				2345B56C2DDCBCA4003E4BFC /* infitinyCITests */,
-				2345B5762DDCBCA4003E4BFC /* infitinyCIUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -223,13 +184,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2345B56B2DDCBCA4003E4BFC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2345B5752DDCBCA4003E4BFC /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -256,13 +210,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2345B5732DDCBCA4003E4BFC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -270,11 +217,6 @@
 			isa = PBXTargetDependency;
 			target = 2345B55C2DDCBCA3003E4BFC /* infitinyCI */;
 			targetProxy = 2345B56E2DDCBCA4003E4BFC /* PBXContainerItemProxy */;
-		};
-		2345B5792DDCBCA4003E4BFC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2345B55C2DDCBCA3003E4BFC /* infitinyCI */;
-			targetProxy = 2345B5782DDCBCA4003E4BFC /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -492,40 +434,6 @@
 			};
 			name = Release;
 		};
-		2345B5882DDCBCA4003E4BFC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "gvladislav-52.infitinyCIUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = infitinyCI;
-			};
-			name = Debug;
-		};
-		2345B5892DDCBCA4003E4BFC /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "gvladislav-52.infitinyCIUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = infitinyCI;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -552,15 +460,6 @@
 			buildConfigurations = (
 				2345B5852DDCBCA4003E4BFC /* Debug */,
 				2345B5862DDCBCA4003E4BFC /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2345B5872DDCBCA4003E4BFC /* Build configuration list for PBXNativeTarget "infitinyCIUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2345B5882DDCBCA4003E4BFC /* Debug */,
-				2345B5892DDCBCA4003E4BFC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
